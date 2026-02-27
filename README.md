@@ -14,7 +14,7 @@ Un agente di Reinforcement Learning per il gioco Sboboz basato su PPO e self-pla
 ```
 sboboz/
 ├── game/           # Game Engine puro (nessuna UI)
-├── env/            # Gymnasium Environment
+├── gym_env/            # Gymnasium Environment
 ├── agents/         # Random Agent + PPO Agent
 └── training/       # Training e Self-play
 ```
@@ -23,17 +23,17 @@ sboboz/
 
 ### ✅ Fase 1: Game Engine
 
-- [] GameState puro
-- [] get_legal_actions()
-- [] apply_action()
-- [] Simulazione random completa
+- [ ] GameState puro
+- [ ] get_legal_actions()
+- [ ] apply_action()
+- [ ] Simulazione random completa
 
 ### ✅ Fase 2: Gymnasium Environment
 
-- [] SbobozEnv
-- [] Observation space (vettoriale numerico)
-- [] Action space (con action masking)
-- [] reset() e step()
+- [ ] SbobozEnv
+- [ ] Observation space (vettoriale numerico)
+- [ ] Action space (con action masking)
+- [ ] reset() e step()
 
 ### 🔄 Fase 3: Training Base
 
